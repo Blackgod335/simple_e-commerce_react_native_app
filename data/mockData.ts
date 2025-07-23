@@ -1,0 +1,123 @@
+import { Product, Category } from '@/types';
+
+export const categories: Category[] = [
+  {
+    id: '1',
+    name: 'Electronics',
+    image: 'https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=500',
+    productCount: 45,
+  },
+  {
+    id: '2',
+    name: 'Fashion',
+    image: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=500',
+    productCount: 120,
+  },
+  {
+    id: '3',
+    name: 'Home & Garden',
+    image: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=500',
+    productCount: 78,
+  },
+  {
+    id: '4',
+    name: 'Sports',
+    image: 'https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=500',
+    productCount: 89,
+  },
+];
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Wireless Headphones',
+    description: 'Premium wireless headphones with noise cancellation and superior sound quality. Perfect for music lovers and professionals.',
+    price: 199.99,
+    originalPrice: 249.99,
+    images: [
+      'https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=500',
+      'https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=500',
+    ],
+    category: 'Electronics',
+    rating: 4.8,
+    reviewCount: 1247,
+    inStock: true,
+    colors: ['Black', 'White', 'Silver'],
+  },
+  {
+    id: '2',
+    name: 'Smart Watch',
+    description: 'Advanced fitness tracking smartwatch with heart rate monitoring, GPS, and week-long battery life.',
+    price: 299.99,
+    images: [
+      'https://images.pexels.com/photos/1061141/pexels-photo-1061141.jpeg?auto=compress&cs=tinysrgb&w=500',
+      'https://images.pexels.com/photos/1391487/pexels-photo-1391487.jpeg?auto=compress&cs=tinysrgb&w=500',
+    ],
+    category: 'Electronics',
+    rating: 4.6,
+    reviewCount: 892,
+    inStock: true,
+    colors: ['Black', 'Silver', 'Rose Gold'],
+  },
+  {
+    id: '3',
+    name: 'Designer Jacket',
+    description: 'Stylish and comfortable designer jacket made from premium materials. Perfect for any season.',
+    price: 159.99,
+    originalPrice: 199.99,
+    images: [
+      'https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=500',
+      'https://images.pexels.com/photos/1300550/pexels-photo-1300550.jpeg?auto=compress&cs=tinysrgb&w=500',
+    ],
+    category: 'Fashion',
+    rating: 4.7,
+    reviewCount: 456,
+    inStock: true,
+    colors: ['Navy', 'Black', 'Brown'],
+    sizes: ['S', 'M', 'L', 'XL'],
+  },
+  {
+    id: '4',
+    name: 'Laptop Stand',
+    description: 'Ergonomic aluminum laptop stand that improves posture and increases productivity.',
+    price: 79.99,
+    images: [
+      'https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg?auto=compress&cs=tinysrgb&w=500',
+    ],
+    category: 'Electronics',
+    rating: 4.5,
+    reviewCount: 234,
+    inStock: true,
+    colors: ['Silver', 'Space Gray'],
+  },
+  {
+    id: '5',
+    name: 'Running Shoes',
+    description: 'Professional running shoes with advanced cushioning and breathable mesh upper.',
+    price: 129.99,
+    images: [
+      'https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=500',
+      'https://images.pexels.com/photos/2526878/pexels-photo-2526878.jpeg?auto=compress&cs=tinysrgb&w=500',
+    ],
+    category: 'Sports',
+    rating: 4.9,
+    reviewCount: 1567,
+    inStock: true,
+    colors: ['White', 'Black', 'Red'],
+    sizes: ['7', '8', '9', '10', '11', '12'],
+  },
+  {
+    id: '6',
+    name: 'Coffee Maker',
+    description: 'Premium automatic coffee maker with programmable settings and thermal carafe.',
+    price: 189.99,
+    images: [
+      'https://images.pexels.com/photos/4829461/pexels-photo-4829461.jpeg?auto=compress&cs=tinysrgb&w=500',
+    ],
+    category: 'Home & Garden',
+    rating: 4.4,
+    reviewCount: 678,
+    inStock: true,
+    colors: ['Stainless Steel', 'Black'],
+  },
+];
